@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Bank Prototype</h1>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Accounts</a></li>
+            <li><a href="#">Loans</a></li>
+            <li><a href="#">Cards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="login-btn">Log in</button>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Digital Banking</h2>
+    <p>Manage your finances securely online</p>
+    <button>Get Started</button>
+</section>
+
+<section class="products">
+    <div class="card">Accounts</div>
+    <div class="card">Loans</div>
+    <div class="card">Credit Cards</div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Bank Prototype</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
